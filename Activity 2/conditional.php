@@ -15,7 +15,7 @@
 </div>
 
 <div class="conditional-card">
-    <p><strong>Anniversary Promo!</strong> To celebrate our 12th year anniversary, Sweet Cravings shop will offer 12% discount on all pastries. </p>
+    <p><strong>Anniversary Promo!</strong> To celebrate our 12th year anniversary, Sweet Cravings will offer 12% discount on all pastries. </p>
 </div>
 
 <!-- If-ElseIf -->
@@ -43,7 +43,7 @@
             echo "<p>Chocolate Cake Slice is available today! </p>";
             break;
         case "Cinnamon Roll":
-            echo "<p>Cinnamon Roll is freshly baked and available! </p>";
+            echo "<p><strong>Cinnamon Roll</strong> is freshly baked and available! </p>";
             break;
         default:
             echo "<p>That pastry is currently sold out. </p>";
