@@ -1,3 +1,4 @@
+<!--Maglalang, Alexie T | WD 201 -->
 <?php require 'header.php'; ?>
 
 <h1> Welcome to Sweet Cravings Pastry Shop! 🍰</h1>
