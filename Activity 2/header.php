@@ -7,10 +7,11 @@
 
 <body>
 
-<nav>
-    <a href="pastry.php">Home</a>
-    <a href="conditional.php">Conditional Statements</a>
-    <a href="loop.php">Looping</a>
-</nav>
-
-<img src="side.png" class="right-image">
+<header class="site-header">
+    <nav>
+        <a href="pastry.php">Home</a>
+        <a href="conditional.php">Conditional Statements</a>
+        <a href="loop.php">Looping</a>
+        <a href="about.php">About Us</a>
+    </nav>
+</header>
