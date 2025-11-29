@@ -8,8 +8,10 @@
     <img src="pastries2.jpg" alt="pastries">
 </div>
 
-<p>Explore how we use PHP in our pastry shop operations.</p>
-<p>Use the navigation above to view:</p>
+<p>For this Christmas, our shop will offer a <strong>12% discount</strong> for <strong>12 days</strong>, starting exactly 
+<strong>12 noon</strong> from <strong>December 12 to 23</strong>.</p>
+
+<p>Explore how we use PHP in our pastry shop operations. Use the navigation above to view:</p>
 
 <ul class="home-list">
     <li><strong>PHP Conditional Statements</strong></li>
