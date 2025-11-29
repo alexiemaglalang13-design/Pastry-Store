@@ -2,8 +2,8 @@
 <h1> About Us</h1>
 
 <div class="conditional-card">
-    <p>Welcome to Sweet Cravings, your go-to pastry shop for delicious, freshly baked treats! We make pastries perfect <br>
-     for every craving, whether it's a sweet treat for yourself or something to share with loved ones.”
+    <p>Welcome to <strong>Sweet Cravings</strong>, your go-to pastry shop for delicious, freshly baked treats! We make pastries <br>
+     perfect for every craving, whether it's a sweet treat for yourself or something to share with loved ones.
     </p>
 </div>
 
