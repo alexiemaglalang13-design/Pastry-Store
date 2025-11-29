@@ -1,0 +1,39 @@
+body {
+    padding: 20px;
+    background: url('christmas.jpg') no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+}
+
+h1 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: 'Brush Script MT';
+    font-size: 3em;
+    text-align: center;
+    color: #a63d3d;
+}
+
+table {
+    font-family: 'Brush Script MT';
+    width: 70%;
+    margin: auto;
+    border-collapse: collapse;
+    background: #ffffff;
+}
+
+th, td {
+    border: 2px solid #e15353ff;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background: #fe9292ff;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman';
+    text-align: center;
+    padding-bottom: 5px;
+}
