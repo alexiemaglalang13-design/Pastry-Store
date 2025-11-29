@@ -11,7 +11,7 @@
     <nav>
         <a href="pastry.php">Home</a>
         <a href="conditional.php">Conditional Statements</a>
-        <a href="loop.php">Looping</a>
+        <a href="loop.php">Loops</a>
         <a href="about.php">About Us</a>
     </nav>
 </header>
