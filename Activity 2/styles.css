@@ -1,48 +1,45 @@
-/* ----- Body ----- */
 body {
     background: url('christmas.jpg') no-repeat center center fixed;
     background-size: cover;
-    padding: 20px;
+    padding: 0px;
     margin: 0;
     font-family: Georgia, serif;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
-/* ----- Navigation ----- */
 nav {
+    padding-top: 50px;
     display: flex;
     justify-content: center;
     gap: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 nav a {
     display: inline-block;
-    padding: 10px 20px;
-    background-color: rgba(255, 255, 255, 0.8);
+    padding: 13px 30px;
+    background-color: rgba(255, 151, 151, 0.8);
     color: #a63d3d;
     font-size: 1.2em;
     text-decoration: none;
     font-weight: bold;
     border-radius: 8px;
-    transition: all 0.3s ease;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 nav a:hover {
     background-color: #fe9292;
     color: #fff;
-    transform: translateY(-3px);
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
-/* Homepage horizontal images row */
 .homepage-images-row {
     display: flex;
     justify-content: center;
     gap: 20px;
     margin: 20px auto;
-    flex-wrap: wrap;
+    padding-bottom: 20px;
 }
 
 .homepage-images-row img {
@@ -50,31 +47,21 @@ nav a:hover {
     height: auto;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.homepage-images-row img:hover {
-    transform: scale(1.05);
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
-}
-
-/* ----- Headers ----- */
-h1,
-h2 {
-    font-family: "Brush Script MT", cursive;
+h1, h2 {
+    font-family: "Brush Script MT";
     color: #a63d3d;
     text-shadow: 1px 1px #ffffff;
     margin-bottom: 20px;
 }
 
-/* ----- Paragraphs ----- */
 p {
     font-family: Georgia, serif;
     color: #4c2c2c;
     font-size: 1.1em;
 }
 
-/* ----- Table ----- */
 table {
     width: 70%;
     margin: auto;
@@ -82,11 +69,9 @@ table {
     border-collapse: collapse;
     font-family: Georgia, serif;
     text-align: center;
-    /* center table content */
 }
 
-th,
-td {
+th, td {
     border: 2px solid #e15353;
     padding: 10px;
 }
@@ -95,25 +80,29 @@ th {
     background: #fe9292;
 }
 
-/* ----- Homepage list ----- */
 .home-list {
-    width: fit-content;
     margin: 0 auto 20px auto;
-    background: rgba(255, 243, 243, 0.9);
     padding: 15px;
     border-radius: 8px;
     text-align: center;
 }
 
-/* Conditional sections */
 .conditional-card {
-    background: rgba(255, 255, 255, 0.85);
     border: 2px solid #fe9292;
     border-radius: 12px;
     padding: 20px;
     margin: 15px auto;
-    width: 70%;
+    width: 50%;
     font-size: 1.1em;
     text-align: center;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: rgba(255, 151, 151, 0.8);
+    text-align: center;
+    padding: 3px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
