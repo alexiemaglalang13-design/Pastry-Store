@@ -9,8 +9,6 @@ $pastries = ["Chocolate Cake Slice", "Vanilla Cupcake", "Strawberry Donut", "Cho
 $prices   = [95, 45, 35, 50, 40, 55, 85];
 ?>
 
-<h2> Discounted Pastries</h2>
-
 <!-- For Loop -->
 <table>
     <tr>
