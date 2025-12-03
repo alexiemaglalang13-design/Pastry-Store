@@ -1,5 +1,5 @@
 <?php
-declare(strict_types=1);
+declare(strict_types = 1);
 
 require 'header.php';
 
@@ -22,12 +22,12 @@ function get_reorder_message(int $stock): string {
     return ($stock < 10) ? "Yes" : "No";
 }
 
-function get_total_value(float $price, int $qty): float {
-    return $price * $qty;
+function get_total_value(float $price, int $quantity): float {
+    return $price * $quantity;
 }
 
-function get_tax_due(float $price, int $qty, int $tax_rate = 0): float {
-    return ($price * $qty) * ($tax_rate / 100);
+function get_tax_due(float $price, int $quantity, int $tax_rate = 0): float {
+    return ($price * $quantity) * ($tax_rate / 100);
 }
 ?>
 
