@@ -13,5 +13,6 @@
         <a href="conditional.php">Conditional Statements</a>
         <a href="loop.php">Loops</a>
         <a href="about.php">About Us</a>
+        <a href="stock.php">Stock Control</a>
     </nav>
 </header>
