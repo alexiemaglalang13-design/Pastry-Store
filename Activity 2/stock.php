@@ -6,10 +6,10 @@ require 'header.php';
 $sweet_cravings = [
     "Chocolate Cake Slice"        => ["price" => 95.00, "stock" => 12],
     "Vanilla Cupcake"             => ["price" => 45.00,  "stock" => 34],
-    "Strawberry Donut"            => ["price" => 35.00,  "stock" => 26],
-    "Chocolate Chip Cookies"      => ["price" => 50.00, "stock" => 44],
+    "Strawberry Donut"            => ["price" => 35.00,  "stock" => 6],
+    "Chocolate Chip Cookies"      => ["price" => 50.00, "stock" => 34],
     "Blueberry Muffin"            => ["price" => 40.00,  "stock" => 18],
-    "Cinnamon Roll"               => ["price" => 55.00,  "stock" => 11],
+    "Cinnamon Roll"               => ["price" => 55.00,  "stock" => 8],
     "Biscoff Cheese Cake Slice"   => ["price" => 85.00, "stock" => 10],
     "Choco Croissant"             => ["price" => 35.00,  "stock" => 9],
     "Brownies Box"                => ["price" => 150.00, "stock" => 7],
