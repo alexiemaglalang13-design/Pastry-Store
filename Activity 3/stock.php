@@ -9,8 +9,8 @@ $sweet_cravings = [
     "Strawberry Donut"            => ["price" => 35.00,  "stock" => 26],
     "Chocolate Chip Cookies"      => ["price" => 50.00, "stock" => 44],
     "Blueberry Muffin"            => ["price" => 40.00,  "stock" => 18],
-    "Cinnamon Roll"               => ["price" => 85.00,  "stock" => 11],
-    "Biscoff Cheese Cake Slice"   => ["price" => 200.00, "stock" => 10],
+    "Cinnamon Roll"               => ["price" => 55.00,  "stock" => 11],
+    "Biscoff Cheese Cake Slice"   => ["price" => 85.00, "stock" => 10],
     "Choco Croissant"             => ["price" => 35.00,  "stock" => 9],
     "Brownies Box"                => ["price" => 150.00, "stock" => 7],
     "Egg Pie Bites"               => ["price" => 45.00,  "stock" => 27]
