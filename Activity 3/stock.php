@@ -37,11 +37,11 @@ function get_tax_due(float $price, int $qty, int $tax_rate = 0): float {
 
 <table>
     <tr>
-        <th>Product Name</th>
-        <th>Stock Level</th>
-        <th>Reorder?</th>
-        <th>Total Stock Value (Php)</th>
-        <th>Tax Due (Php)</th>
+        <th>Product</th>
+        <th>Stock</th>
+        <th>Re-Order</th>
+        <th>Total Value</th>
+        <th>Tax Due</th>
     </tr>
 
     <?php
